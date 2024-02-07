@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+span{
+    font-family: "Bell MT";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/******************************************* HEADER ************************************************/
+
+    header{
+        display: flex;
+        height: 20vh;
+        background-color:#8D8484;
+        justify-content: center;
+        align-items: center;
+    }
+
+/****************************************** MAIN ******************************************************/
+    main{
+        display: flex;
+    }
+
+    /************************************** LEFT ******************************************************/
+    .left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .one{
+        width: 65vw;
+        height: 20vh;
+        background-color:#776969;
+        color: #D9D9D9;
+    }.two
+
+         {
+        width: 65vw;
+        height: 20vh;
+        background-color:#643030;
+             color: #D9D9D9;
+    }
+
+    .three{
+        width: 65vw;
+        height: 20vh;
+        background-color:#441818;
+        color: #D9D9D9;
+    }
+/******************************************* RIGHT *****************************************************/
+
+    .right{
+        flex-direction: column;
+    }
+
+    .spam1{
+        width: 35vw;
+        height: 30vh;
+        background-color:#937575;
+        color: #D9D9D9;
+    }
+
+    .spam2{
+        width: 35vw;
+        height: 30vh;
+        background-color:#644C4C;
+        color: #D9D9D9;
+    }
+/********************************************** FOOTER ********************************************************/
+    footer{
+        display: flex;
+        height: 20vh;
+        background-color:#BDBDBD;
+        justify-content: center;
+        align-items: center;
+    }

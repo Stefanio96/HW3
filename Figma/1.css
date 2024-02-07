@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+span {
+    color: #000;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header {
+    display: flex;
+    height: 25vh;
+    background-color: #D9D9D9;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************************************************** MAIM *********************************************/
+main {
+    display: flex;
+}
+
+.news1 {
+    display: flex;
+    width: 29vw;
+    height: 50vh;
+    background-color: #817C7C;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor {
+    display: flex;
+    width: 29vw;
+    height: 50vh;
+    background-color: #B7AEAE;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.content1 {
+    display: flex;
+    width: 56vw;
+    height: 25vh;
+    background-color: #ABA8A8;;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 {
+    display: flex;
+    width: 56vw;
+    height: 25vh;
+    background-color: #878484;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************************************************** SECTION *********************************************/
+footer {
+    height: 25vh;
+    background-color: #BDBDBD;
+    text-align: center;
+    justify-content: center;
+    background-color: #BDBDBD;
+}
+
